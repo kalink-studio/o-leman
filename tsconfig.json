@@ -1,0 +1,14 @@
+{
+  "extends": "@kalink-ui/typescript-config/nextjs.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    },
+    "allowJs": true,
+    "esModuleInterop": true,
+    "lib": ["esnext", "DOM", "DOM.Iterable"]
+  },
+  "include": ["next-env.d.ts", ".next/types/**/*.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules", "node_modules/.pnpm/**/*"]
+}
